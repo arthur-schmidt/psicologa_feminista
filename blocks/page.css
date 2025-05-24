@@ -1,8 +1,8 @@
 .page {
   max-width: 1600px;
   margin: auto;
-  background-color: #f2e3d5;
+  background-color: aliceblue;
+  color: aliceblue;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
-  height: 1000px;
 }

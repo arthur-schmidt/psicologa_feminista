@@ -1,0 +1,28 @@
+.about {
+  background-color: #f0f0f0;
+  display: flex;
+  color: #263d40;
+}
+
+.about__image {
+  width: 35vw;
+  margin-left: 80px;
+  object-fit: contain;
+  margin-bottom: 5%;
+}
+
+.about__text {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8%;
+}
+
+.about__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.about__description {
+  font-size: 1rem;
+}

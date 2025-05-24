@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 90vh;
+  min-height: 100vh;
   align-content: center;
   color: aliceblue;
 }
@@ -16,7 +16,7 @@
   margin-left: 80px;
   font-weight: 700;
   font-size: 76px;
-  color: #263d40ff;
+  color: #263d40;
 }
 
 .header__subtitle {
