@@ -1,5 +1,6 @@
 @import url(/vendor/normalize.css);
 @import url(/vendor/fonts.css);
+@import url(/blocks/global.css);
 @import url(/blocks/about.css);
 @import url(/blocks/feminist-psychology.css);
 @import url(/blocks/footer.css);
