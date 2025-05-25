@@ -6,17 +6,15 @@
 
 .about__image {
   width: 35vw;
-  margin-left: 80px;
-  margin-top: 5%;
   object-fit: contain;
-  margin-bottom: 5%;
+  margin: 5% 0 5% 80px;
 }
 
 .about__text {
   margin: 5% auto;
   display: flex;
   flex-direction: column;
-  padding: 0 8%;
+  padding: 0 10% 0 8%;
   justify-content: center;
 }
 
