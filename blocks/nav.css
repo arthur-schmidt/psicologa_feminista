@@ -62,7 +62,6 @@
   transition: 0.3s;
 }
 
-/* Animação do hambúrguer para "X" */
 .nav__toggle:checked + .nav__hamburger span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -75,7 +74,6 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* RESPONSIVO */
 @media (max-width: 768px) {
   .nav__hamburger {
     display: flex;
@@ -90,7 +88,6 @@
     padding: 0 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-    /* Esconde com suavidade */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
@@ -101,7 +98,7 @@
   }
 
   .nav__toggle:checked + .nav__hamburger + .nav__links {
-    max-height: 500px; /* ou um valor seguro que comporte o menu */
+    max-height: 500px;
     padding: 10px 20px;
   }
 
