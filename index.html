@@ -20,11 +20,13 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img
-            class="nav__logo"
-            src="favicon.png"
-            alt="Logo Psicologa Feminista"
-          />
+          <a class="nav__img" href="#">
+            <img
+              class="nav__logo"
+              src="favicon.png"
+              alt="Logo Psicologa Feminista"
+            />
+          </a>
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#about">Sobre mim</a>
@@ -169,9 +171,65 @@
             </p>
           </div>
         </section>
-        <section class="instagram" id="contato"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contato">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <p class="footer__title">Faça seu agendamento</p>
+            <p class="footer__paragraph">
+              Entre em contato comigo para tirar suas dúvidas e realizar seu
+              agendamento.
+            </p>
+            <a
+              class="footer__button"
+              href="https://api.whatsapp.com/send/?phone=5519995079119&text&type=phone_number&app_absent=0"
+              target="_blank"
+              >Agende sua sessão</a
+            >
+          </div>
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="/images/footer-circle.png"
+              alt="Logo Psicologa Feminista"
+            />
+            <p class="footer__title">Monique Vignado Ortolan</p>
+            <p class="footer__paragraph">CRP 06/16635</p>
+          </div>
+          <div class="footer__column">
+            <p class="footer__title">Siga-me nas redes sociais</p>
+            <div class="footer__socials-icons">
+              <a
+                href="https://www.instagram.com/mefizpsicologa"
+                target="_blank"
+                class="footer__link"
+                ><img
+                  class="footer__icon"
+                  alt="icone do instagram"
+                  src="images/icon-insta-blue.png"
+                />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5519995079119&text&type=phone_number&app_absent=0"
+                target="_blank"
+                class="footer__link"
+                ><img
+                  class="footer__icon"
+                  alt="icone do whatsapp"
+                  src="images/icon-whats-blue.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__credits">
+          <p class="footer__copyright">
+            Copyright &copy; 2025. Todos os direitos reservados.
+          </p>
+          <p class="footer__author">Desenvolvido por: Arthur Schmidt</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

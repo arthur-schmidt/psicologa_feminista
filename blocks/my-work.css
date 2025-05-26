@@ -1,6 +1,7 @@
 .my-work {
   background-color: #456e73;
   padding: 5% 0 6%;
+  scroll-margin-top: 89.8px;
 }
 
 .my-work__title {
@@ -25,6 +26,7 @@
   max-width: 25%;
   min-width: 320px;
   margin-bottom: 5%;
+  border-radius: 10%;
 }
 
 .my-work__column-image {

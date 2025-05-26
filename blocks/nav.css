@@ -31,3 +31,11 @@
   color: #456e73;
   font-weight: 600;
 }
+
+.nav__link:hover {
+  color: #263d40;
+  transform: scale(1.05);
+  transition: 0.35s;
+  cursor: pointer;
+  text-shadow: 0 0 10px #456e73;
+}
