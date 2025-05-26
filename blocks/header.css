@@ -6,7 +6,6 @@
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   min-height: 100vh;
   align-content: center;
   color: aliceblue;
@@ -69,16 +68,17 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 80px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header__cover {
-    background-image: url(../images/background-mobile.png);
+    background-image: url(../images/background-mobile2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    padding-top: 80px;
   }
   .header__title {
     font-size: 60px;
@@ -97,10 +97,11 @@
 
 @media screen and (max-width: 320px) {
   .header__cover {
-    background-image: url(../images/background-mobile.png);
+    background-image: url(../images/background-mobile2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 80px;
   }
 
   .header__title {
