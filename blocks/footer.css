@@ -26,6 +26,10 @@
   align-self: center;
 }
 
+.footer__logo-mobile {
+  display: none;
+}
+
 .footer__title {
   font-weight: 600;
   margin-top: 15%;
@@ -46,6 +50,7 @@
   border-color: #f0f0f0;
   padding: 10px 15px;
   background-color: #456e73;
+  margin-top: 10px;
 }
 
 .footer__button:hover {
@@ -87,4 +92,32 @@
   justify-content: space-between;
   padding: 0 3% 1px;
   border-top: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+@media screen and (max-width: 544px) {
+  .footer__column {
+    min-width: 220px;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .footer__socials-icons {
+    margin-bottom: 30px;
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .footer__logo-mobile {
+    display: block;
+    max-width: 100%;
+    align-self: center;
+  }
+
+  .footer__credits {
+    font-size: 11px;
+    padding: 0 3% 1px;
+  }
 }

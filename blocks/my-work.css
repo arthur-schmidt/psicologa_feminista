@@ -69,3 +69,22 @@
     margin-left: 16%;
   }
 }
+
+@media screen and (max-width: 544px) {
+  .my-work__title {
+    margin-left: 19%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .my-work__title {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .my-work__title {
+    margin-left: 15%;
+  }
+}

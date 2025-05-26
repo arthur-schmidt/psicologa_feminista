@@ -12,6 +12,10 @@
   margin: 5% 80px 5% 50px;
 }
 
+.feminist-psychology__image-mobile {
+  display: none;
+}
+
 .feminist-psychology__text {
   margin: 5% auto;
   display: flex;
@@ -38,17 +42,33 @@
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .feminist-psychology__title {
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .feminist-psychology__text {
+    padding-right: 5px;
+  }
   .feminist-psychology__description {
-    margin: 0 0 0.67rem;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .feminist-psychology__image {
+    display: none;
   }
 
   .feminist-psychology__text {
-    padding: 0 3% 0 8%;
+    padding-right: 35px;
   }
 
-  .feminist-psychology__image {
-    margin: 5% 70px 5% 40px;
+  .feminist-psychology__image-mobile {
+    display: block;
+    width: 70vw;
+    object-fit: contain;
+    margin: 5% 0 5%;
   }
 }

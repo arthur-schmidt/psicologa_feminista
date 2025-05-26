@@ -11,6 +11,10 @@
   margin: 5% 0 5% 80px;
 }
 
+.about__image-mobile {
+  display: none;
+}
+
 .about__text {
   margin: 5% auto;
   display: flex;
@@ -32,5 +36,18 @@
 @media screen and (max-width: 768px) {
   .about__description {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .about__image {
+    display: none;
+  }
+
+  .about__image-mobile {
+    display: block;
+    width: 70vw;
+    object-fit: contain;
+    margin: 5% 0 5%;
   }
 }
