@@ -66,12 +66,18 @@
 @media screen and (max-width: 768px) {
   .header__cover {
     background-image: url(../images/background-tablet.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header__cover {
     background-image: url(../images/background-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .header__title {
     font-size: 60px;
@@ -89,12 +95,23 @@
 }
 
 @media screen and (max-width: 320px) {
+  .header__cover {
+    background-image: url(../images/background-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .header__title {
     font-size: 40px;
     color: aliceblue;
   }
 
   .header__subtitle {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .header__text {
+    font-size: 16px;
   }
 }
