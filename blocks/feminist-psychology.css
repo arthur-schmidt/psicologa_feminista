@@ -1,0 +1,38 @@
+.feminist-psychology {
+  background-color: #c69c72;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #403026;
+}
+
+.feminist-psychology__image {
+  width: 35vw;
+  object-fit: contain;
+  margin: 5% 80px 5% 50px;
+}
+
+.feminist-psychology__text {
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5% 0 8%;
+  justify-content: center;
+}
+
+.feminist-psychology__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.feminist-psychology__subtitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.feminist-psychology__description {
+  margin: 0 0 0.67rem;
+  font-size: 1.2rem;
+}
