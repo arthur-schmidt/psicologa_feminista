@@ -94,6 +94,11 @@
   border-top: 1px solid rgba(255, 255, 255, 0.678);
 }
 
+.footer__author-link {
+  text-decoration: underline;
+  color: rgb(172, 207, 238);
+}
+
 @media screen and (max-width: 544px) {
   .footer__column {
     min-width: 220px;
